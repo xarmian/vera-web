@@ -28,7 +28,7 @@
           Rekeying is a unique feature of AVM (Algorand Virtual Machine) Networks, such as Voi, which allows you to assign a new private key to an account without transferring or removing your assets. This powerful security feature lets you change the authorization for an account while maintaining its address and contents.
         </p>
         
-        <div class="bg-primary-50 border-l-4 border-primary-400 p-4 my-6">
+        <div class="bg-primary-50 dark:bg-primary-900/20 border-l-4 border-primary-400 dark:border-primary-700 p-4 my-6">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-primary-600">
@@ -101,7 +101,7 @@
           Your account is now rekeyed, and all transactions will be signed by the rekeyed-to account (the "authorized account").
         </p>
         
-        <div class="bg-red-50 border-l-4 border-red-400 p-4 my-6">
+        <div class="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-400 dark:border-red-700 p-4 my-6">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-red-400">
@@ -138,7 +138,7 @@
           </li>
           <li>
             <p><strong>Read the information and tap "Start Process"</strong></p>
-            <div class="bg-primary-50 border-l-4 border-primary-400 p-4 my-3">
+            <div class="bg-primary-50 dark:bg-primary-900/20 border-l-4 border-primary-400 dark:border-primary-700 p-4 my-3">
               <p class="text-sm text-primary-700">
                 <strong>Tip:</strong> Ensure your Ledger is turned on, the Voi Network app is open, and Bluetooth is enabled (for Nano X, Stax, or Flex).
               </p>
@@ -162,7 +162,7 @@
           Your account is now rekeyed, and all transactions will be signed by the rekeyed-to Ledger account (the "authorized account").
         </p>
         
-        <div class="bg-amber-50 border-l-4 border-amber-400 p-4 my-6">
+        <div class="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 dark:border-amber-700 p-4 my-6">
           <div class="flex">
             <div class="flex-shrink-0">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-amber-600">
@@ -195,28 +195,28 @@
         <h2>Common Questions</h2>
         
         <div class="space-y-6 mt-8">
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900">What happens to my assets when I rekey?</h3>
             <p class="mt-2 text-gray-600">
               Nothing happens to your assets during the rekeying process. Your assets remain in the same account with the same address. Only the authorization method (which private key can sign transactions) changes.
             </p>
           </div>
           
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900">Can I rekey multiple accounts to the same target account?</h3>
             <p class="mt-2 text-gray-600">
               Yes, you can rekey multiple different accounts to the same target account. This allows you to manage several accounts using a single private key, which can be particularly useful for consolidating authorization to a Ledger device.
             </p>
           </div>
           
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900">Why would I use rekeying instead of just transferring assets?</h3>
             <p class="mt-2 text-gray-600">
               Rekeying is beneficial when you want to maintain the same public address but change the authorization method. This is particularly useful if your account is already linked to various services, has locked assets, or contains many different assets that would be cumbersome to transfer individually.
             </p>
           </div>
           
-          <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900">Is there a fee for rekeying?</h3>
             <p class="mt-2 text-gray-600">
               Yes, rekeying requires a transaction on the Voi Network, so the standard transaction fee applies. This fee is typically minimal.
