@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8755D5" />
+      <stop offset="100%" stop-color="#231566" />
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M20 5c8.284 0 15 6.716 15 15 0 8.284-6.716 15-15 15-8.284 0-15-6.716-15-15 0-8.284 6.716-15 15-15z" fill="url(#logoGradient)" />
+    <path d="M30 18a2 2 0 011.995 1.85L32 20v5a5 5 0 01-4.783 4.995L27 30H13a5 5 0 01-4.995-4.783L8 25v-5a2 2 0 013.995-.15L12 20v5a1 1 0 00.883.993L13 26h14a1 1 0 00.993-.883L28 25v-5a2 2 0 012-2z" fill="#FFF" fill-rule="nonzero" />
+    <path d="M20 10a2 2 0 011.995 1.85L22 12v15a2 2 0 01-3.995.15L18 27V12a2 2 0 012-2z" fill="#FFF" fill-rule="nonzero" />
+    <text x="45" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#6841B7">VERA</text>
+  </g>
+</svg> 
