@@ -7,21 +7,21 @@
   <meta name="description" content="Learn how to rekey an account in Vera Wallet to enhance the security of your assets on the Voi Network." />
 </svelte:head>
 
-<div class="bg-white py-16 sm:py-24">
+<div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto">
-      <a href="/support" class="inline-flex items-center text-primary-600 hover:text-primary-700 mb-8">
+      <a href="/support" class="inline-flex items-center text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 mb-8">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
         </svg>
         Back to Support
       </a>
       
-      <h1 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+      <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
         How to Rekey an Account with Vera Wallet
       </h1>
       
-      <div class="mt-8 prose prose-lg text-gray-500 mx-auto">
+      <div class="mt-8 prose prose-lg text-gray-500 dark:text-gray-400 prose-headings:dark:text-white mx-auto">
         <h2>Understanding Rekeying</h2>
         
         <p>
@@ -49,16 +49,16 @@
           </div>
         </div>
         
-        <div class="bg-amber-50 border-l-4 border-amber-400 p-4 my-6">
+        <div class="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 dark:border-amber-700 p-4 my-6">
           <div class="flex">
             <div class="flex-shrink-0">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-amber-600">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-amber-600 dark:text-amber-400">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z" />
               </svg>
             </div>
             <div class="ml-3">
-              <p class="text-sm text-amber-700">
-                <strong>Note:</strong> You can also move your assets directly to a new, secure account if you don't want to rekey. Rekeying is especially recommended if you have a large number of assets or if you have locked assets (for example, in staking).
+              <p class="text-sm text-amber-700 dark:text-amber-300">
+                <strong class="dark:text-amber-300">Note:</strong> You can also move your assets directly to a new, secure account if you don't want to rekey. Rekeying is especially recommended if you have a large number of assets or if you have locked assets (for example, in staking).
               </p>
             </div>
           </div>

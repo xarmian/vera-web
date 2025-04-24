@@ -8,15 +8,15 @@
   </svelte:head>
   
   <!-- Hero Section -->
-  <section class="relative bg-white overflow-hidden">
+  <section class="relative bg-white dark:bg-gray-900 overflow-hidden">
     <div class="container mx-auto px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
-          <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+          <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
             <span class="block">Vera Wallet</span>
-            <span class="block text-primary-600">for Voi Network</span>
+            <span class="block text-primary-600 dark:text-primary-400">for Voi Network</span>
           </h1>
-          <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+          <p class="mt-3 text-base text-gray-500 dark:text-gray-400 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
             A secure, user-friendly mobile wallet for the Voi Network. Manage your assets, send and receive tokens, and interact with the Voi blockchain ecosystem with ease.
           </p>
           <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
@@ -32,7 +32,7 @@
         </div>
         <div class="hidden mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
           <div class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-            <div class="relative block w-full bg-white overflow-hidden rounded-lg">
+            <div class="relative block w-full bg-white dark:bg-gray-800 overflow-hidden rounded-lg">
               <img src="/android-chrome-512x512.png" alt="Vera Wallet App" class="w-full" />
             </div>
           </div>
@@ -42,53 +42,53 @@
   </section>
   
   <!-- Features Section -->
-  <section class="bg-gray-50 py-16 sm:py-24">
+  <section class="bg-gray-50 dark:bg-gray-800 py-16 sm:py-24">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
           Why Choose Vera Wallet?
         </h2>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 mx-auto">
           Vera offers a seamless experience for interacting with the Voi Network.
         </p>
       </div>
       
       <div class="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <!-- Feature 1 -->
-        <div class="flex flex-col bg-white rounded-lg shadow-md p-6">
-          <div class="p-2 bg-primary-50 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary-600">
+        <div class="flex flex-col bg-white dark:bg-gray-900 rounded-lg shadow-md p-6">
+          <div class="p-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary-600 dark:text-primary-400">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
             </svg>
           </div>
-          <h3 class="text-xl font-medium text-gray-900">Secure by Design</h3>
-          <p class="mt-2 text-base text-gray-500">
+          <h3 class="text-xl font-medium text-gray-900 dark:text-white">Secure by Design</h3>
+          <p class="mt-2 text-base text-gray-500 dark:text-gray-400">
             Your private keys never leave your device. Industry-standard security practices keep your assets safe.
           </p>
         </div>
         
         <!-- Feature 2 -->
-        <div class="flex flex-col bg-white rounded-lg shadow-md p-6">
-          <div class="p-2 bg-primary-50 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary-600">
+        <div class="flex flex-col bg-white dark:bg-gray-900 rounded-lg shadow-md p-6">
+          <div class="p-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary-600 dark:text-primary-400">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
             </svg>
           </div>
-          <h3 class="text-xl font-medium text-gray-900">Fast & Efficient</h3>
-          <p class="mt-2 text-base text-gray-500">
+          <h3 class="text-xl font-medium text-gray-900 dark:text-white">Fast & Efficient</h3>
+          <p class="mt-2 text-base text-gray-500 dark:text-gray-400">
             Built on the Voi Network, enjoy quick transaction confirmations and low fees for all your transactions.
           </p>
         </div>
         
         <!-- Feature 3 -->
-        <div class="flex flex-col bg-white rounded-lg shadow-md p-6">
-          <div class="p-2 bg-primary-50 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary-600">
+        <div class="flex flex-col bg-white dark:bg-gray-900 rounded-lg shadow-md p-6">
+          <div class="p-2 bg-primary-50 dark:bg-primary-900/20 rounded-lg w-12 h-12 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary-600 dark:text-primary-400">
               <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 008.716-6.747M12 21a9.004 9.004 0 01-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 017.843 4.582M12 3a8.997 8.997 0 00-7.843 4.582m15.686 0A11.953 11.953 0 0112 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0121 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0112 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 013 12c0-1.605.42-3.113 1.157-4.418" />
             </svg>
           </div>
-          <h3 class="text-xl font-medium text-gray-900">dApp Integration</h3>
-          <p class="mt-2 text-base text-gray-500">
+          <h3 class="text-xl font-medium text-gray-900 dark:text-white">dApp Integration</h3>
+          <p class="mt-2 text-base text-gray-500 dark:text-gray-400">
             Connect to your favorite decentralized applications with WalletConnect support.
           </p>
         </div>
@@ -97,13 +97,13 @@
   </section>
   
   <!-- Download Section -->
-  <section id="download" class="py-16 sm:py-24">
+  <section id="download" class="py-16 sm:py-24 bg-white dark:bg-gray-900">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
-        <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+        <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
           Download Vera Wallet
         </h2>
-        <p class="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 mx-auto">
           Get Vera Wallet on your mobile device and start exploring the Voi Network.
         </p>
       </div>
@@ -147,13 +147,13 @@
   </section>
   
   <!-- Community Section -->
-  <section class="bg-gradient-to-b from-secondary-500 to-secondary-700 py-16 sm:py-24 text-white">
+  <section class="bg-gradient-to-b from-secondary-500 to-secondary-700 dark:from-secondary-800 dark:to-secondary-900 py-16 sm:py-24 text-white">
     <div class="container mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <h2 class="text-3xl font-extrabold sm:text-4xl">
           Join the Voi Network Community
         </h2>
-        <p class="mt-4 max-w-2xl text-xl text-secondary-100 mx-auto">
+        <p class="mt-4 max-w-2xl text-xl text-secondary-100 dark:text-secondary-200 mx-auto">
           Connect with developers and users to learn more about Vera Wallet and the Voi ecosystem.
         </p>
       </div>

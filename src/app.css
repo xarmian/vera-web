@@ -4,50 +4,50 @@
 
 @layer base {
   html {
-    @apply text-gray-900;
+    @apply text-gray-900 dark:text-gray-100;
     scroll-behavior: smooth;
   }
   
   body {
-    @apply min-h-screen bg-white font-sans;
+    @apply min-h-screen bg-white dark:bg-gray-900 font-sans;
   }
 
   /* Headings */
   h1 {
-    @apply text-4xl font-bold mb-6 mt-8;
+    @apply text-4xl font-bold mb-6 mt-8 dark:text-white;
   }
 
   h2 {
-    @apply text-3xl font-bold mb-4 mt-6;
+    @apply text-3xl font-bold mb-4 mt-6 dark:text-white;
   }
 
   h3 {
-    @apply text-2xl font-semibold mb-4 mt-6;
+    @apply text-2xl font-semibold mb-4 mt-6 dark:text-white;
   }
 
   h4 {
-    @apply text-xl font-semibold mb-3 mt-4;
+    @apply text-xl font-semibold mb-3 mt-4 dark:text-white;
   }
 
   h5 {
-    @apply text-lg font-semibold mb-2 mt-4;
+    @apply text-lg font-semibold mb-2 mt-4 dark:text-white;
   }
 
   h6 {
-    @apply text-base font-semibold mb-2 mt-4;
+    @apply text-base font-semibold mb-2 mt-4 dark:text-white;
   }
 
   /* Paragraphs and text */
   p {
-    @apply mb-4 leading-relaxed;
+    @apply mb-4 leading-relaxed dark:text-gray-300;
   }
 
   a {
-    @apply text-primary-600 hover:text-primary-700 transition-colors;
+    @apply text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300 transition-colors;
   }
 
   strong, b {
-    @apply font-semibold;
+    @apply font-semibold dark:text-white;
   }
 
   em, i {
@@ -56,11 +56,11 @@
 
   /* Lists */
   ul {
-    @apply list-disc pl-5 my-4;
+    @apply list-disc pl-5 my-4 dark:text-gray-300;
   }
 
   ol {
-    @apply list-decimal pl-5 my-4;
+    @apply list-decimal pl-5 my-4 dark:text-gray-300;
   }
 
   li {
@@ -69,12 +69,12 @@
 
   /* Blockquotes */
   blockquote {
-    @apply pl-4 border-l-4 border-gray-300 italic my-6 text-gray-700;
+    @apply pl-4 border-l-4 border-gray-300 dark:border-gray-700 italic my-6 text-gray-700 dark:text-gray-400;
   }
 
   /* Horizontal rule */
   hr {
-    @apply my-8 border-t border-gray-200;
+    @apply my-8 border-t border-gray-200 dark:border-gray-700;
   }
 
   /* Tables */
@@ -83,20 +83,20 @@
   }
 
   th {
-    @apply py-2 px-3 bg-gray-100 text-left font-semibold border border-gray-300;
+    @apply py-2 px-3 bg-gray-100 dark:bg-gray-800 text-left font-semibold border border-gray-300 dark:border-gray-700 dark:text-white;
   }
 
   td {
-    @apply py-2 px-3 border border-gray-300;
+    @apply py-2 px-3 border border-gray-300 dark:border-gray-700 dark:text-gray-300;
   }
 
   /* Code blocks */
   pre {
-    @apply bg-gray-100 p-4 rounded-md my-4 overflow-x-auto;
+    @apply bg-gray-100 dark:bg-gray-800 p-4 rounded-md my-4 overflow-x-auto;
   }
 
   code {
-    @apply bg-gray-100 px-1 py-0.5 rounded text-sm font-mono;
+    @apply bg-gray-100 dark:bg-gray-800 px-1 py-0.5 rounded text-sm font-mono dark:text-gray-300;
   }
 
   pre code {
@@ -105,15 +105,15 @@
 
   /* Form elements */
   input, select, textarea {
-    @apply px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500;
+    @apply px-3 py-2 border border-gray-300 dark:border-gray-700 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-800 dark:text-white;
   }
 
   label {
-    @apply block text-sm font-medium text-gray-700 mb-1;
+    @apply block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1;
   }
 
   button {
-    @apply inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500;
+    @apply inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500 dark:focus:ring-offset-gray-900;
   }
 }
 
@@ -127,15 +127,15 @@
   }
   
   .btn-primary {
-    @apply bg-primary-600 text-white hover:bg-primary-700 hover:text-white;
+    @apply bg-primary-600 text-white hover:bg-primary-700 hover:text-white dark:bg-primary-700 dark:hover:bg-primary-600;
   }
   
   .btn-secondary {
-    @apply bg-secondary-600 text-white hover:bg-secondary-700 hover:text-white;
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 hover:text-white dark:bg-secondary-700 dark:hover:bg-secondary-600;
   }
   
   .btn-outline {
-    @apply border border-gray-300 bg-white text-gray-700 hover:bg-gray-50 hover:text-primary-600;
+    @apply border border-gray-300 dark:border-gray-700 bg-white dark:bg-transparent text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800 hover:text-primary-600 dark:hover:text-primary-400;
   }
 
   /* Custom list classes */
@@ -161,11 +161,11 @@
 
   /* Card component */
   .card {
-    @apply bg-white rounded-lg shadow-md overflow-hidden;
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden;
   }
 
   .card-header {
-    @apply px-6 py-4 border-b border-gray-200;
+    @apply px-6 py-4 border-b border-gray-200 dark:border-gray-700;
   }
 
   .card-body {
@@ -173,7 +173,7 @@
   }
 
   .card-footer {
-    @apply px-6 py-4 border-t border-gray-200;
+    @apply px-6 py-4 border-t border-gray-200 dark:border-gray-700;
   }
 
   /* Alert components */
@@ -182,19 +182,19 @@
   }
 
   .alert-info {
-    @apply bg-blue-50 text-blue-800;
+    @apply bg-blue-50 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300;
   }
 
   .alert-success {
-    @apply bg-green-50 text-green-800;
+    @apply bg-green-50 dark:bg-green-900/30 text-green-800 dark:text-green-300;
   }
 
   .alert-warning {
-    @apply bg-yellow-50 text-yellow-800;
+    @apply bg-yellow-50 dark:bg-yellow-900/30 text-yellow-800 dark:text-yellow-300;
   }
 
   .alert-error {
-    @apply bg-red-50 text-red-800;
+    @apply bg-red-50 dark:bg-red-900/30 text-red-800 dark:text-red-300;
   }
 
   /* Badge component */
@@ -203,14 +203,14 @@
   }
 
   .badge-gray {
-    @apply bg-gray-100 text-gray-800;
+    @apply bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-300;
   }
 
   .badge-primary {
-    @apply bg-primary-100 text-primary-800;
+    @apply bg-primary-100 dark:bg-primary-900/50 text-primary-800 dark:text-primary-300;
   }
 
   .badge-secondary {
-    @apply bg-secondary-100 text-secondary-800;
+    @apply bg-secondary-100 dark:bg-secondary-900/50 text-secondary-800 dark:text-secondary-300;
   }
 }
