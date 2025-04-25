@@ -24,6 +24,7 @@
 			<div class="hidden md:flex md:items-center">
 				<div class="flex space-x-4 mr-2">
 					<a href="/" class="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Home</a>
+					<a href="/about" class="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">About</a>
 					<a href="/support" class="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Support</a>
 					<a href="/#download" class="px-3 py-2 text-sm font-medium text-gray-700 dark:text-gray-300 hover:text-primary-600 dark:hover:text-primary-400">Download</a>
 				</div>
@@ -58,6 +59,7 @@
 		<div class="md:hidden">
 			<div class="space-y-1 px-2 py-3">
 				<a href="/" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400">Home</a>
+				<a href="/about" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400">About</a>
 				<a href="/support" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400">Support</a>
 				<a href="/#download" class="block rounded-md px-3 py-2 text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700 hover:text-primary-600 dark:hover:text-primary-400">Download</a>
 			</div>
@@ -132,6 +134,9 @@
 							</li>
 							<li>
 								<a href="/terms-of-service" class="text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">Terms of Service</a>
+							</li>
+							<li>
+								<a href="/about" class="text-base text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">About Us</a>
 							</li>
 						</ul>
 					</div>
