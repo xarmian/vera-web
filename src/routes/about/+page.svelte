@@ -1,11 +1,4 @@
 <script>
-	import { onMount } from 'svelte';
-	
-	let fadeIn = false;
-	
-	onMount(() => {
-		fadeIn = true;
-	});
 </script>
 
 <svelte:head>
@@ -14,7 +7,7 @@
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-12 sm:py-16 lg:py-20">
-	<div class="container mx-auto px-4 sm:px-6 lg:px-8 transition-opacity duration-500 ease-in-out" class:opacity-0={!fadeIn} class:opacity-100={fadeIn}>
+	<div class="container mx-auto px-4 sm:px-6 lg:px-8 transition-opacity duration-500 ease-in-out">
 		<div class="max-w-3xl mx-auto text-center">
 			<h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
 				About Vera Wallet
