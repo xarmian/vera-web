@@ -47,6 +47,18 @@
 				</p>
 			</div>
 			
+			<div class="bg-white dark:bg-gray-800 rounded-lg p-6 mb-8 shadow-sm border border-gray-200 dark:border-gray-700">
+				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Why "Vera"?</h2>
+				<p class="text-gray-700 dark:text-gray-300 mb-4">
+					Vera is a temporary brand for a temporary solution to build out compatibility with Voi. Creating a separate brand 
+					is the fastest way to get it in the hands of users and generate feedback.
+				</p>
+				<p class="text-gray-700 dark:text-gray-300">
+					The ultimate goal is to continue to update Vera to reach parity with the features Pera has on Algorand and then 
+					merge back into the main branch.
+				</p>
+			</div>
+			
 			<div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
 				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Open Source</h2>
 				<p class="text-gray-700 dark:text-gray-300 mb-4">
