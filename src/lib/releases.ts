@@ -8,6 +8,16 @@ export interface ReleaseInfo {
 
 export const releases: ReleaseInfo[] = [
   {
+    version: "0.1.6",
+    date: "2025-04-25", // Using ISO 8601 format
+    url: "https://api.voirewards.com/vera-wallet-beta-0.1.6.apk",
+    isBeta: true,
+    notes: [
+        "Add enVoi name support for accounts, transactions, and transfer recipient lookup",
+        "Hide add asset button until feature is implemented",
+    ],
+  },
+  {
     version: "0.1.5",
     date: "2025-04-24", // Using ISO 8601 format
     url: "https://api.voirewards.com/vera-wallet-beta-0.1.5.apk",
