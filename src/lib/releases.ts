@@ -8,6 +8,17 @@ export interface ReleaseInfo {
 
 export const releases: ReleaseInfo[] = [
   {
+    version: "0.1.7",
+    date: "2025-04-29", // Using ISO 8601 format
+    url: "https://api.voirewards.com/vera-wallet-beta-0.1.7.apk",
+    isBeta: true,
+    notes: [
+        "ARC-200 Token Support - See ARC-200 tokens in your wallet",
+        "ARC-72 Token Support - See ARC-72 NFTs in your wallet",
+        "NOTE: Token support is currently view-only. Transfer of tokens is not yet available.",
+    ],
+  },
+  {
     version: "0.1.6",
     date: "2025-04-25", // Using ISO 8601 format
     url: "https://api.voirewards.com/vera-wallet-beta-0.1.6.apk",
