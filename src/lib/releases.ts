@@ -8,6 +8,18 @@ export interface ReleaseInfo {
 
 export const releases: ReleaseInfo[] = [
   {
+    version: "0.1.9",
+    date: "2025-05-28", // Using ISO 8601 format
+    url: "https://api.voirewards.com/vera-wallet-beta-0.1.9.apk",
+    isBeta: true,
+    notes: [
+        "Aramid Bridge Integration",
+        "Remove conflicting perawallet:// deeplink",
+        "Native support for ARC-200 Token transfers",
+        "General UI/UX improvements and bug fixes",
+    ],
+  },
+  {
     version: "0.1.8",
     date: "2025-05-07", // Using ISO 8601 format
     url: "https://api.voirewards.com/vera-wallet-beta-0.1.8.apk",
