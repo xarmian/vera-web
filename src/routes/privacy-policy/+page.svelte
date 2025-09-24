@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Privacy Policy - Vera Wallet</title>
-  <meta name="description" content="Privacy Policy for Vera Wallet, a non-custodial cryptocurrency wallet. Learn how we protect your data and privacy." />
+  <title>Privacy Policy - Voi Wallet</title>
+  <meta name="description" content="Privacy Policy for Voi Wallet, a non-custodial cryptocurrency wallet. Learn how we protect your data and privacy." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -20,7 +20,7 @@
         </p>
         
         <p>
-          At Vera Wallet, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our non-custodial cryptocurrency wallet application and related services (collectively, the "Services").
+          At Voi Wallet, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our non-custodial cryptocurrency wallet application and related services (collectively, the "Services").
         </p>
         
         <p>
@@ -89,7 +89,7 @@
         <ul>
           <li><strong class="dark:text-white">With Service Providers:</strong> We may share your information with third-party vendors, service providers, contractors, or agents who perform services for us or on our behalf, such as analytics providers and customer service support.</li>
           <li><strong class="dark:text-white">For Legal Compliance:</strong> We may disclose your information where required to comply with applicable law, governmental requests, a judicial proceeding, court order, or legal process.</li>
-          <li><strong class="dark:text-white">To Protect Rights:</strong> We may disclose your information to protect the rights, property, or safety of Vera Wallet, our users, or others.</li>
+          <li><strong class="dark:text-white">To Protect Rights:</strong> We may disclose your information to protect the rights, property, or safety of Voi Wallet, our users, or others.</li>
           <li><strong class="dark:text-white">Business Transfers:</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
           <li><strong class="dark:text-white">With Your Consent:</strong> We may disclose your information for any other purpose with your consent.</li>
         </ul>
@@ -165,7 +165,7 @@
         </p>
         
         <p>
-          <a href="mailto:support@getvera.app" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">support@getvera.app</a><br />
+          <a href="mailto:support@getvoi.app" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">support@getvoi.app</a><br />
           Or through our <a href="/contact" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Contact Page</a>
         </p>
       </div>

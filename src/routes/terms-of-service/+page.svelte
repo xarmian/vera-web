@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Terms of Service - Vera Wallet</title>
-  <meta name="description" content="Terms of Service for Vera Wallet, a non-custodial cryptocurrency wallet. Learn about the terms governing the use of our services." />
+  <title>Terms of Service - Voi Wallet</title>
+  <meta name="description" content="Terms of Service for Voi Wallet, a non-custodial cryptocurrency wallet. Learn about the terms governing the use of our services." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -20,7 +20,7 @@
         </p>
         
         <p>
-          Please read these Terms of Service ("Terms") carefully before using the Vera Wallet application and related services (collectively, the "Services") operated by Vera Wallet ("we," "us," or "our").
+          Please read these Terms of Service ("Terms") carefully before using the Voi Wallet application and related services (collectively, the "Services") operated by Voi Wallet ("we," "us," or "our").
         </p>
         
         <p>
@@ -30,7 +30,7 @@
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">1. Services Description</h2>
         
         <p>
-          Vera Wallet is a non-custodial cryptocurrency wallet that enables users to store, send, receive, and manage digital assets on the Voi Network and other supported blockchain networks. "Non-custodial" means that we do not store or have access to your recovery phrases, private keys, or funds. You are solely responsible for maintaining the security of your recovery phrases and private keys.
+          Voi Wallet is a non-custodial cryptocurrency wallet that enables users to store, send, receive, and manage digital assets on the Voi Network and other supported blockchain networks. "Non-custodial" means that we do not store or have access to your recovery phrases, private keys, or funds. You are solely responsible for maintaining the security of your recovery phrases and private keys.
         </p>
         
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">2. Eligibility</h2>
@@ -56,7 +56,7 @@
           <li>You are solely responsible for maintaining the security of your recovery phrases, private keys, and wallet access;</li>
           <li>You understand that lost recovery phrases and private keys cannot be recovered by us, and may result in permanent loss of access to your digital assets;</li>
           <li>You are solely responsible for verifying the accuracy of any transaction details before confirming transactions;</li>
-          <li>You will maintain appropriate security measures to protect your devices and access to the Vera Wallet application;</li>
+          <li>You will maintain appropriate security measures to protect your devices and access to the Voi Wallet application;</li>
           <li>You understand the risks associated with cryptocurrency transactions, including price volatility, regulatory uncertainty, and technical vulnerabilities;</li>
           <li>You will comply with all applicable laws and regulations in your jurisdiction when using our Services.</li>
         </ul>
@@ -64,7 +64,7 @@
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">4. Intellectual Property</h2>
         
         <p>
-          The Vera Wallet application, including its content, features, and functionality, is owned by us and is protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
+          The Voi Wallet application, including its content, features, and functionality, is owned by us and is protected by international copyright, trademark, patent, trade secret, and other intellectual property or proprietary rights laws.
         </p>
         
         <p>
@@ -156,7 +156,7 @@
         <h2 class="text-2xl font-bold text-gray-900 dark:text-white mt-8 mb-4">12. Contact Us</h2>
         
         <p>
-          If you have any questions about these Terms, please contact us at <a href="mailto:support@getvera.app" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">support@getvera.app</a> or through our <a href="/contact" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">contact page</a>.
+          If you have any questions about these Terms, please contact us at <a href="mailto:support@getvoi.app" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">support@getvoi.app</a> or through our <a href="/contact" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">contact page</a>.
         </p>
       </div>
     </div>

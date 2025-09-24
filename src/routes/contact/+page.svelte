@@ -24,8 +24,8 @@
 </script>
 
 <svelte:head>
-  <title>Contact Us - Vera Wallet</title>
-  <meta name="description" content="Contact the Vera Wallet team for support, feedback, or questions about our non-custodial cryptocurrency wallet." />
+  <title>Contact Us - Voi Wallet</title>
+  <meta name="description" content="Contact the Voi Wallet team for support, feedback, or questions about our non-custodial cryptocurrency wallet." />
 </svelte:head>
 
 <div class="bg-white py-16 sm:py-24">
@@ -37,7 +37,7 @@
       
       <div class="prose prose-lg text-gray-500 mx-auto">
         <p>
-          Have questions, feedback, or need support with Vera Wallet? We're here to help. Choose the way you'd like to reach us.
+          Have questions, feedback, or need support with Voi Wallet? We're here to help. Choose the way you'd like to reach us.
         </p>
         
         <div class="grid sm:grid-cols-2 gap-6 mt-10 mb-12">
@@ -67,8 +67,8 @@
           <div class="bg-gray-50 p-6 rounded-lg">
             <h3 class="text-xl font-semibold text-gray-900">Email Support</h3>
             <p class="mt-2">Send us an email and we'll get back to you as soon as possible.</p>
-            <a href="mailto:support@getvera.app" class="mt-4 inline-block text-primary-600 hover:text-primary-700">
-              support@getvera.app
+            <a href="mailto:support@getvoi.app" class="mt-4 inline-block text-primary-600 hover:text-primary-700">
+              support@getvoi.app
             </a>
           </div>
         </div>
@@ -142,13 +142,13 @@
           
           <div class="space-y-6">
             <div>
-              <h3 class="text-lg font-medium text-gray-900">Is Vera Wallet custodial?</h3>
-              <p class="mt-2">No, Vera Wallet is a non-custodial wallet. This means we never have access to your funds or private keys. You maintain complete control over your assets at all times.</p>
+              <h3 class="text-lg font-medium text-gray-900">Is Voi Wallet custodial?</h3>
+              <p class="mt-2">No, Voi Wallet is a non-custodial wallet. This means we never have access to your funds or private keys. You maintain complete control over your assets at all times.</p>
             </div>
             
             <div>
-              <h3 class="text-lg font-medium text-gray-900">What blockchain networks does Vera Wallet support?</h3>
-              <p class="mt-2">Vera Wallet currently supports the Voi Network. We plan to add support for additional networks in the future.</p>
+              <h3 class="text-lg font-medium text-gray-900">What blockchain networks does Voi Wallet support?</h3>
+              <p class="mt-2">Voi Wallet currently supports the Voi Network. We plan to add support for additional networks in the future.</p>
             </div>
             
             <div>

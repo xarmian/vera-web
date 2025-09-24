@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Recover Your Account - Vera Wallet Support</title>
-  <meta name="description" content="Learn how to recover or import a Voi account with your recovery passphrase in Vera Wallet." />
+  <title>Recover Your Account - Voi Wallet Support</title>
+  <meta name="description" content="Learn how to recover or import a Voi account with your recovery passphrase in Voi Wallet." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -46,7 +46,7 @@
             </div>
             <div class="ml-3">
               <p class="text-sm text-red-700 dark:text-red-300">
-                <strong class="dark:text-red-300">Warning:</strong> If you don't have a 25-word recovery passphrase, you will be unable to recover your account. Vera Wallet is a non-custodial wallet and cannot provide assistance if you've lost your passphrase.
+                <strong class="dark:text-red-300">Warning:</strong> If you don't have a 25-word recovery passphrase, you will be unable to recover your account. Voi Wallet is a non-custodial wallet and cannot provide assistance if you've lost your passphrase.
               </p>
             </div>
           </div>
@@ -60,15 +60,15 @@
           <li><a href="/support/passphrase" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Backing up your recovery passphrase</a></li>
         </ul>
         
-        <h2>Recover an Account in Vera Mobile</h2>
+        <h2>Recover an Account in Voi Mobile</h2>
         
         <p>
-          If you're using Vera Wallet for the first time, follow these steps:
+          If you're using Voi Wallet for the first time, follow these steps:
         </p>
         
         <ol>
           <li>
-            <p><strong class="dark:text-white">Open the Vera Wallet app</strong> and click "I already have an account"</p>
+            <p><strong class="dark:text-white">Open the Voi Wallet app</strong> and click "I already have an account"</p>
           </li>
           <li>
             <p><strong class="dark:text-white">Select "Recover an account"</strong> from the options</p>
@@ -90,11 +90,11 @@
         </ol>
         
         <p>
-          Your account is now ready to use in Vera Wallet. You can find it on your Home Screen, where you can fund it or explore the Voi ecosystem.
+          Your account is now ready to use in Voi Wallet. You can find it on your Home Screen, where you can fund it or explore the Voi ecosystem.
         </p>
         
         <p>
-          If you already have accounts in your Vera Wallet and want to add another one:
+          If you already have accounts in your Voi Wallet and want to add another one:
         </p>
         
         <ol>
@@ -126,7 +126,7 @@
           <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900 dark:text-white">Is it safe to enter my recovery passphrase in the app?</h3>
             <p class="mt-2 text-gray-600 dark:text-gray-300">
-              Yes, Vera Wallet is designed with security in mind. Your passphrase is never sent to any server and is only used locally to generate your private keys. However, always ensure you're in a private location without anyone watching when entering your passphrase.
+              Yes, Voi Wallet is designed with security in mind. Your passphrase is never sent to any server and is only used locally to generate your private keys. However, always ensure you're in a private location without anyone watching when entering your passphrase.
             </p>
           </div>
         </div>

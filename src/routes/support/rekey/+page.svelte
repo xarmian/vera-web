@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>How to Rekey an Account - Vera Wallet Support</title>
-  <meta name="description" content="Learn how to rekey an account in Vera Wallet to enhance the security of your assets on the Voi Network." />
+  <title>How to Rekey an Account - Voi Wallet Support</title>
+  <meta name="description" content="Learn how to rekey an account in Voi Wallet to enhance the security of your assets on the Voi Network." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -18,7 +18,7 @@
       </a>
       
       <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-        How to Rekey an Account with Vera Wallet
+        How to Rekey an Account with Voi Wallet
       </h1>
       
       <div class="mt-8 prose prose-lg text-gray-500 dark:text-gray-400 prose-headings:dark:text-white mx-auto">
@@ -180,7 +180,7 @@
         <h2>Undoing a Rekey</h2>
         
         <p>
-          Currently, there is no direct "undo rekey" feature in Vera Wallet. However, you can effectively reverse a rekey by rekeying the account again to a new or different account.
+          Currently, there is no direct "undo rekey" feature in Voi Wallet. However, you can effectively reverse a rekey by rekeying the account again to a new or different account.
         </p>
         
         <p>

@@ -28,7 +28,7 @@
     },
     {
       title: "Ledger",
-      description: "How to connect and use a Ledger hardware wallet with Vera.",
+      description: "How to connect and use a Ledger hardware wallet with Voi Wallet.",
       icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
             </svg>`,
@@ -44,20 +44,20 @@
     },
     {
       title: "Create New Account",
-      description: "Steps to create a new account in your Vera Wallet.",
+      description: "Steps to create a new account in your Voi Wallet.",
       icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z" />
             </svg>`,
       href: "/support/create-new-account",
     },
-    {
+    /*{
       title: "Bridge",
       description: "Learn how to use the Aramid bridge to transfer assets between the Voi and Algorand networks.",
       icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
             </svg>`,
       href: "/support/bridge",
-    },
+    },*/
     {
       title: "Asset Inbox",
       description: "Manage your incoming assets with the Asset Inbox feature.",
@@ -71,7 +71,7 @@
     },
     {
       title: "HD Wallets",
-      description: "Understanding Hierarchical Deterministic wallets in Vera.",
+      description: "Understanding Hierarchical Deterministic wallets in Voi Wallet.",
       icon: `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
               <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
             </svg>`,
@@ -84,18 +84,18 @@
 </script>
 
 <svelte:head>
-  <title>Support - Vera Wallet</title>
-  <meta name="description" content="Get help with using Vera Wallet, the mobile wallet for Voi Network." />
+  <title>Support - Voi Wallet</title>
+  <meta name="description" content="Get help with using Voi Wallet, the mobile wallet for Voi Network." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center">
       <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-        Vera Wallet Support
+        Voi Wallet Support
       </h1>
       <p class="mt-4 max-w-2xl text-xl text-gray-500 dark:text-gray-400 mx-auto">
-        Get help with using your Vera Wallet and managing your assets on the Voi Network.
+        Get help with using your Voi Wallet and managing your assets on the Voi Network.
       </p>
     </div>
     

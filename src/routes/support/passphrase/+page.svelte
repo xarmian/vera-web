@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Passphrase Information - Vera Wallet Support</title>
-  <meta name="description" content="Learn how to secure and manage your recovery passphrase in Vera Wallet." />
+  <title>Passphrase Information - Voi Wallet Support</title>
+  <meta name="description" content="Learn how to secure and manage your recovery passphrase in Voi Wallet." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -39,7 +39,7 @@
         
         <h2>What is a Recovery Passphrase?</h2>
         <p>
-          A recovery passphrase (sometimes called a seed phrase or mnemonic) is a series of 25 words that serves as a backup to your Vera Wallet. These words, generated when you first create your wallet, are derived from your private key and follow a specific standard.
+          A recovery passphrase (sometimes called a seed phrase or mnemonic) is a series of 25 words that serves as a backup to your Voi Wallet. These words, generated when you first create your wallet, are derived from your private key and follow a specific standard.
         </p>
         
         <h2>Why is Your Passphrase Important?</h2>
@@ -49,7 +49,7 @@
         <ul>
           <li>You lose your mobile device</li>
           <li>Your device gets damaged</li>
-          <li>You need to reinstall the Vera Wallet app</li>
+          <li>You need to reinstall the Voi Wallet app</li>
           <li>You want to access your wallet on another device</li>
         </ul>
         
@@ -119,7 +119,7 @@
               </li>
               <li class="flex items-start">
                 <span class="text-red-500 dark:text-red-400 mr-2">✗</span>
-                Share your passphrase with anyone, including Vera support
+                Share your passphrase with anyone, including Voi support
               </li>
               <li class="flex items-start">
                 <span class="text-red-500 dark:text-red-400 mr-2">✗</span>
@@ -129,12 +129,12 @@
           </div>
         </div>
         
-        <h2>Viewing Your Passphrase in Vera Wallet</h2>
+        <h2>Viewing Your Passphrase in Voi Wallet</h2>
         <p>
-          If you need to view your recovery passphrase within the Vera Wallet app:
+          If you need to view your recovery passphrase within the Voi Wallet app:
         </p>
         <ol>
-          <li>Open the Vera Wallet app</li>
+          <li>Open the Voi Wallet app</li>
           <li>Tap on the <strong class="dark:text-white">Settings</strong> icon in the bottom navigation</li>
           <li>Select <strong class="dark:text-white">Security</strong> from the settings menu</li>
           <li>Tap on <strong class="dark:text-white">View Recovery Passphrase</strong></li>

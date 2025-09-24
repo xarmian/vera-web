@@ -16,8 +16,8 @@
 		<div class="flex h-16 items-center justify-between">
 			<div class="flex items-center">
 				<a href="/" class="flex items-center">
-					<img src="/android-chrome-192x192.png" alt="Vera Wallet" class="h-8 w-auto" />
-					<span class="ml-2 text-xl font-bold text-primary-600 dark:text-primary-400">Vera Wallet</span>
+					<img src="/android-chrome-192x192.png" alt="Voi Wallet" class="h-8 w-auto" />
+					<span class="ml-2 text-xl font-bold text-primary-600 dark:text-primary-400">Voi Wallet</span>
 				</a>
 			</div>
 			
@@ -75,9 +75,9 @@
 	<div class="container mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 		<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 			<div class="space-y-8 xl:col-span-1">
-				<img src="/android-chrome-192x192.png" alt="Vera Wallet" class="h-10" />
+				<img src="/android-chrome-192x192.png" alt="Voi Wallet" class="h-10" />
 				<p class="text-base text-gray-500 dark:text-gray-400">
-					A secure, user-friendly mobile wallet for the Voi Network.
+					Voi Wallet - A secure mobile wallet built from scratch for the Voi Network.
 				</p>
 				<div class="flex space-x-6">
 					<a href="https://github.com/xarmian/pera-android" class="text-gray-400 hover:text-gray-500 dark:text-gray-500 dark:hover:text-gray-400">
@@ -145,7 +145,7 @@
 		</div>
 		<div class="mt-12 border-t border-gray-200 dark:border-gray-800 pt-8">
 			<p class="text-base text-gray-400 xl:text-center">
-				&copy; {new Date().getFullYear()} Vera Wallet. A fork of Pera Wallet for the Voi Network.
+				&copy; {new Date().getFullYear()} Voi Wallet. Built from scratch with React Native for the Voi Network.
 			</p>
 		</div>
 	</div>

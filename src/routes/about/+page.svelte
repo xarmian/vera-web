@@ -2,73 +2,75 @@
 </script>
 
 <svelte:head>
-	<title>About Vera Wallet | A Fork of Pera Algo Wallet for Voi Network</title>
-	<meta name="description" content="Learn about Vera Wallet, our roots as a fork of Pera Algo Wallet, and our mission to contribute to the AVM ecosystem." />
+	<title>About Voi Wallet | Built from Scratch for Voi Network</title>
+	<meta name="description" content="Learn about Voi Wallet, built from scratch with React Native as a purpose-built AVM-compatible wallet for Voi Network." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-12 sm:py-16 lg:py-20">
 	<div class="container mx-auto px-4 sm:px-6 lg:px-8 transition-opacity duration-500 ease-in-out">
 		<div class="max-w-3xl mx-auto text-center">
 			<h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
-				About Vera Wallet
+				About Voi Wallet
 			</h1>
 			<p class="mt-4 text-xl text-gray-500 dark:text-gray-400">
-				A secure, user-friendly mobile wallet for the Voi Network
+				Vera Wallet is now Voi Wallet - Built from scratch for the Voi Network
 			</p>
 		</div>
-		
+
 		<div class="mt-16 max-w-3xl mx-auto">
 			<div class="bg-primary-50 dark:bg-gray-800 rounded-lg p-6 mb-8 shadow-sm">
-				<h2 class="text-2xl font-bold text-primary-700 dark:text-primary-400 mb-4">Our Roots</h2>
+				<h2 class="text-2xl font-bold text-primary-700 dark:text-primary-400 mb-4">Evolution to Voi Wallet</h2>
 				<p class="text-gray-700 dark:text-gray-300 mb-4">
-					Vera Wallet is proud to be a fork of the <a href="https://perawallet.app" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline">Pera Algo Wallet</a>, 
-					one of the leading wallets in the Algorand ecosystem. We believe in the power of open source software and community collaboration 
-					to drive innovation and growth.
+					<strong>Vera Wallet is now Voi Wallet.</strong> We've evolved from our initial approach to create a mobile wallet
+					built entirely from scratch using React Native. This represents a complete architectural shift toward creating
+					the best possible user experience for the Voi Network.
 				</p>
 				<p class="text-gray-700 dark:text-gray-300">
-					By building on the solid foundation provided by Pera Wallet, we're able to focus on optimizing the experience 
-					specifically for the Voi Network while maintaining compatibility with the broader AVM (Algorand Virtual Machine) ecosystem.
+					While Voi Wallet is purpose-built for the Voi Network blockchain, it maintains full AVM (Algorand Virtual Machine)
+					compatibility with support for Algorand, ensuring you can manage assets across both networks seamlessly.
 				</p>
 			</div>
-			
+
 			<div class="bg-white dark:bg-gray-800 rounded-lg p-6 mb-8 shadow-sm border border-gray-200 dark:border-gray-700">
-				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Commitment</h2>
+				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Built from Scratch</h2>
 				<p class="text-gray-700 dark:text-gray-300 mb-4">
-					We are committed to contributing back to the development of Pera Wallet and the broader AVM ecosystem. Our goal is to:
+					Voi Wallet is no longer a fork - it's a completely new mobile application built from the ground up with React Native.
+					This approach allows us to:
 				</p>
 				<ul class="list-disc pl-6 text-gray-700 dark:text-gray-300 space-y-2 mb-4">
-					<li>Submit valuable improvements back to the original Pera Wallet codebase</li>
-					<li>Share insights and optimizations with the broader AVM ecosystem</li>
-					<li>Collaborate with other developers and projects to advance the technology</li>
-					<li>Help grow adoption of AVM-compatible blockchains like Voi Network</li>
+					<li>Optimize specifically for Voi Network's unique features and requirements</li>
+					<li>Deliver the best possible mobile experience with modern React Native architecture</li>
+					<li>Maintain full control over security implementations and user experience</li>
+					<li>Provide seamless AVM compatibility for both Voi Network and Algorand</li>
 				</ul>
 				<p class="text-gray-700 dark:text-gray-300">
-					We believe that by working together, we can build a stronger, more vibrant ecosystem that benefits everyone.
+					This ground-up approach ensures Voi Wallet can evolve quickly to meet the specific needs of the Voi ecosystem
+					while maintaining the highest standards of security and usability.
 				</p>
 			</div>
-			
+
 			<div class="bg-white dark:bg-gray-800 rounded-lg p-6 mb-8 shadow-sm border border-gray-200 dark:border-gray-700">
-				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Why "Vera"?</h2>
+				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Why "Voi Wallet"?</h2>
 				<p class="text-gray-700 dark:text-gray-300 mb-4">
-					Vera is a temporary brand for a temporary solution to build out compatibility with Voi. Creating a separate brand 
-					is the fastest way to get it in the hands of users and generate feedback.
+					The rebrand from Vera to Voi Wallet reflects our commitment to the Voi Network ecosystem. As the wallet has evolved
+					into a purpose-built solution for Voi, the name change better represents our focus and mission.
 				</p>
 				<p class="text-gray-700 dark:text-gray-300">
-					The ultimate goal is to continue to update Vera to reach parity with the features Pera has on Algorand and then 
-					merge back into the main branch.
+					Voi Wallet embodies our vision of creating the definitive mobile wallet experience for the Voi Network while
+					maintaining the flexibility to support the broader AVM ecosystem.
 				</p>
 			</div>
-			
+
 			<div class="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
 				<h2 class="text-2xl font-bold text-gray-900 dark:text-white mb-4">Open Source</h2>
 				<p class="text-gray-700 dark:text-gray-300 mb-4">
-					Like Pera Wallet, Vera Wallet is open source. We invite developers to review our code, submit issues, and contribute to 
-					the project. Together, we can create the best possible wallet experience for Voi users.
+					Voi Wallet remains open source. We invite developers to review our code, submit issues, and contribute to
+					the project. Together, we can create the best possible wallet experience for Voi Network users.
 				</p>
 				<div class="mt-4">
-					<a 
-						href="https://github.com/xarmian/pera-android" 
-						target="_blank" 
+					<a
+						href="https://github.com/xarmian/pera-android"
+						target="_blank"
 						rel="noopener noreferrer"
 						class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
 					>

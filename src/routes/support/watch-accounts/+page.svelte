@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Watch Accounts - Vera Wallet Support</title>
-  <meta name="description" content="Learn how to set up and use watch accounts to monitor Voi accounts without spending permissions in Vera Wallet." />
+  <title>Watch Accounts - Voi Wallet Support</title>
+  <meta name="description" content="Learn how to set up and use watch accounts to monitor Voi accounts without spending permissions in Voi Wallet." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -18,7 +18,7 @@
       </a>
       
       <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-        Using Watch Accounts in Vera Wallet
+        Using Watch Accounts in Voi Wallet
       </h1>
       
       <div class="mt-8 prose prose-lg text-gray-500 dark:text-gray-400 prose-headings:dark:text-white mx-auto">
@@ -91,12 +91,12 @@
         <h2>How to Add a Watch Account</h2>
         
         <p>
-          Follow these steps to add a watch account to your Vera Wallet:
+          Follow these steps to add a watch account to your Voi Wallet:
         </p>
         
         <ol>
           <li>
-            <p><strong class="dark:text-white">Open Vera Wallet</strong> and make sure you're logged in</p>
+            <p><strong class="dark:text-white">Open Voi Wallet</strong> and make sure you're logged in</p>
           </li>
           <li>
             <p><strong class="dark:text-white">Navigate to the main accounts screen</strong> by clicking on the accounts icon in the navigation menu</p>
@@ -285,7 +285,7 @@
           <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900 dark:text-white">Can I receive notifications for watch account activity?</h3>
             <p class="mt-2 text-gray-600 dark:text-gray-300">
-              Vera Wallet currently allows you to monitor watch accounts manually. For automatic notifications about account activity, you may want to use a blockchain explorer or notification service that supports the Voi Network.
+              Voi Wallet currently allows you to monitor watch accounts manually. For automatic notifications about account activity, you may want to use a blockchain explorer or notification service that supports the Voi Network.
             </p>
           </div>
           

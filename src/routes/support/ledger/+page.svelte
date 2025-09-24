@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Using Ledger with Vera Wallet - Support</title>
-  <meta name="description" content="Learn how to pair and use your Ledger hardware wallet with Vera Wallet for enhanced security." />
+  <title>Using Ledger with Voi Wallet - Support</title>
+  <meta name="description" content="Learn how to pair and use your Ledger hardware wallet with Voi Wallet for enhanced security." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -18,14 +18,14 @@
       </a>
       
       <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-        Pairing Your Ledger Device with Vera Wallet
+        Pairing Your Ledger Device with Voi Wallet
       </h1>
       
       <div class="mt-8 prose prose-lg text-gray-500 dark:text-gray-400 prose-headings:dark:text-white mx-auto">
         <h2>What is Ledger Integration?</h2>
         
         <p>
-          Vera Wallet allows you to create accounts that are backed by a Ledger hardware wallet. This means your private keys never leave the Ledger device, providing an additional layer of security. Transactions from your Ledger-backed account will require physical authorization on your Ledger device.
+          Voi Wallet allows you to create accounts that are backed by a Ledger hardware wallet. This means your private keys never leave the Ledger device, providing an additional layer of security. Transactions from your Ledger-backed account will require physical authorization on your Ledger device.
         </p>
         
         <div class="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 dark:border-amber-700 p-4 my-6">
@@ -46,7 +46,7 @@
         <h2>Initial Ledger Device Setup</h2>
         
         <p>
-          Before integrating with Vera Wallet, you'll need to:
+          Before integrating with Voi Wallet, you'll need to:
         </p>
         
         <ol>
@@ -60,25 +60,25 @@
             <p><strong class="dark:text-white">Download and install the Algorand app</strong> on your Ledger device through Ledger Live</p>
             <div class="bg-primary-50 dark:bg-primary-900/20 border-l-4 border-primary-400 dark:border-primary-700 p-4 my-3">
               <p class="text-sm text-primary-700 dark:text-primary-300">
-                <strong class="dark:text-primary-300">Tip:</strong> Vera Wallet utilizes Ledger's Algorand app for signing transactions, which is available in the Ledger App Catalog. Make sure your Ledger Live and firmware are updated to the latest versions.
+                <strong class="dark:text-primary-300">Tip:</strong> Voi Wallet utilizes Ledger's Algorand app for signing transactions, which is available in the Ledger App Catalog. Make sure your Ledger Live and firmware are updated to the latest versions.
               </p>
             </div>
           </li>
         </ol>
         
         <p>
-          Once you have the Algorand app installed on your Ledger device, you're ready to begin pairing with Vera Wallet.
+          Once you have the Algorand app installed on your Ledger device, you're ready to begin pairing with Voi Wallet.
         </p>
         
         <h2>How to Pair Your Ledger Device</h2>
         
         <p>
-          Follow these steps to pair your Ledger device with Vera Wallet:
+          Follow these steps to pair your Ledger device with Voi Wallet:
         </p>
         
         <ol>
           <li>
-            <p><strong class="dark:text-white">Open Vera Wallet</strong> and tap the <strong class="dark:text-white">+</strong> (plus) icon at the top of your accounts list on the Home Screen</p>
+            <p><strong class="dark:text-white">Open Voi Wallet</strong> and tap the <strong class="dark:text-white">+</strong> (plus) icon at the top of your accounts list on the Home Screen</p>
           </li>
           <li>
             <p><strong class="dark:text-white">Select "Import an account"</strong> and then <strong class="dark:text-white">"Pair Ledger Device"</strong></p>
@@ -102,7 +102,7 @@
             <p><strong class="dark:text-white">Select your Ledger device</strong> from the list of discovered devices and tap <strong class="dark:text-white">"Connect"</strong></p>
           </li>
           <li>
-            <p><strong class="dark:text-white">Select the account(s)</strong> you want to add to Vera Wallet</p>
+            <p><strong class="dark:text-white">Select the account(s)</strong> you want to add to Voi Wallet</p>
             <div class="bg-primary-50 dark:bg-primary-900/20 border-l-4 border-primary-400 dark:border-primary-700 p-4 my-3">
               <p class="text-sm text-primary-700 dark:text-primary-300">
                 <strong class="dark:text-primary-300">Note:</strong> If this is a new Ledger device, you'll likely only have one account to choose from. If you've created multiple accounts on your Ledger, you may see several accounts available.
@@ -115,7 +115,7 @@
         </ol>
         
         <p>
-          That's it! Your Ledger-backed account is now added to Vera Wallet. You'll now be able to view your balance and receive funds, but any outgoing transactions will require approval on your physical Ledger device.
+          That's it! Your Ledger-backed account is now added to Voi Wallet. You'll now be able to view your balance and receive funds, but any outgoing transactions will require approval on your physical Ledger device.
         </p>
         
         <div class="bg-red-50 dark:bg-red-900/20 border-l-4 border-red-400 dark:border-red-700 p-4 my-6">
@@ -127,7 +127,7 @@
             </div>
             <div class="ml-3">
               <p class="text-sm text-red-700 dark:text-red-300">
-                <strong class="dark:text-red-300">Important Warning:</strong> Treat your Ledger device's recovery phrase with the same care as your Vera Wallet recovery passphrase. If you lose your Ledger device, the only way to recover your accounts will be using the recovery phrase you received during setup. Keep it secure and never share it with anyone.
+                <strong class="dark:text-red-300">Important Warning:</strong> Treat your Ledger device's recovery phrase with the same care as your Voi Wallet recovery passphrase. If you lose your Ledger device, the only way to recover your accounts will be using the recovery phrase you received during setup. Keep it secure and never share it with anyone.
               </p>
             </div>
           </div>
@@ -136,11 +136,11 @@
         <h2>Using Your Ledger-Backed Account</h2>
         
         <p>
-          When using a Ledger-backed account with Vera Wallet:
+          When using a Ledger-backed account with Voi Wallet:
         </p>
         
         <ul>
-          <li>You can view your account balance and transaction history directly in Vera Wallet</li>
+          <li>You can view your account balance and transaction history directly in Voi Wallet</li>
           <li>You can receive funds just like any other account</li>
           <li>To send transactions, add assets, or interact with the blockchain, you'll need to have your Ledger device connected and the Algorand app open</li>
           <li>All transactions must be physically verified and approved on your Ledger device before they are submitted to the blockchain</li>
@@ -152,7 +152,7 @@
           <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900 dark:text-white">Which Ledger devices are supported?</h3>
             <p class="mt-2 text-gray-600 dark:text-gray-300">
-              Vera Wallet supports Ledger Nano X, Ledger Stax, and Ledger Flex devices. Older models may have limited compatibility.
+              Voi Wallet supports Ledger Nano X, Ledger Stax, and Ledger Flex devices. Older models may have limited compatibility.
             </p>
           </div>
           
@@ -180,7 +180,7 @@
         
         <h2>Need More Help?</h2>
         <p>
-          If you have additional questions about using a Ledger device with Vera Wallet, please visit our <a href="/support" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Support Center</a> or join our <a href="https://discord.gg/voiapp" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Discord community</a>. For Ledger-specific issues, consider consulting the <a href="https://support.ledger.com" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Ledger Support website</a>.
+          If you have additional questions about using a Ledger device with Voi Wallet, please visit our <a href="/support" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Support Center</a> or join our <a href="https://discord.gg/voiapp" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Discord community</a>. For Ledger-specific issues, consider consulting the <a href="https://support.ledger.com" class="text-primary-600 hover:text-primary-700 dark:text-primary-400 dark:hover:text-primary-300">Ledger Support website</a>.
         </p>
       </div>
     </div>

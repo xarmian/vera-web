@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Create a New Account - Vera Wallet Support</title>
-  <meta name="description" content="Learn how to create a new account in Vera Wallet for the Voi Network." />
+  <title>Create a New Account - Voi Wallet Support</title>
+  <meta name="description" content="Learn how to create a new account in Voi Wallet for the Voi Network." />
 </svelte:head>
 
 <div class="bg-white dark:bg-gray-900 py-16 sm:py-24">
@@ -18,20 +18,20 @@
       </a>
       
       <h1 class="text-3xl font-extrabold text-gray-900 dark:text-white sm:text-4xl">
-        Create a New Account in Vera Wallet
+        Create a New Account in Voi Wallet
       </h1>
       
       <div class="mt-8 prose prose-lg text-gray-500 dark:text-gray-400 prose-headings:dark:text-white mx-auto">
         <h2>Before You Begin</h2>
         
         <p>
-          Make sure you understand these key points about Vera Wallet and accounts on the Voi Network:
+          Make sure you understand these key points about Voi Wallet and accounts on the Voi Network:
         </p>
         
         <ul>
-          <li>Vera Wallet is a container for your Voi Network accounts</li>
-          <li>Vera Wallet allows you to create and manage accounts, but these accounts exist on the blockchain, not "on Vera"</li>
-          <li>Vera Wallet is non-custodial, meaning you have full control of your accounts, but also full responsibility for their security</li>
+          <li>Voi Wallet is a container for your Voi Network accounts</li>
+          <li>Voi Wallet allows you to create and manage accounts, but these accounts exist on the blockchain, not "on Voi"</li>
+          <li>Voi Wallet is non-custodial, meaning you have full control of your accounts, but also full responsibility for their security</li>
         </ul>
         
         <div class="bg-amber-50 dark:bg-amber-900/20 border-l-4 border-amber-400 dark:border-amber-700 p-4 my-6">
@@ -74,12 +74,12 @@
         <h2>Creating Your First Wallet</h2>
         
         <p>
-          If you're new to Vera Wallet and don't have any accounts yet, follow these steps:
+          If you're new to Voi Wallet and don't have any accounts yet, follow these steps:
         </p>
         
         <ol>
           <li>
-            <p><strong class="dark:text-white">Open the Vera Wallet app</strong> and select "I want to create a wallet"</p>
+            <p><strong class="dark:text-white">Open the Voi Wallet app</strong> and select "I want to create a wallet"</p>
           </li>
           <li>
             <p><strong class="dark:text-white">Select "Create a new wallet"</strong> from the options</p>
@@ -118,13 +118,13 @@
         </ol>
         
         <p>
-          Your new account is now ready to use in Vera Wallet. You can find it on your Home Screen, where you can fund it or explore the Voi ecosystem.
+          Your new account is now ready to use in Voi Wallet. You can find it on your Home Screen, where you can fund it or explore the Voi ecosystem.
         </p>
         
         <h2>Adding a New Account to Your Existing Wallet</h2>
         
         <p>
-          If you already have accounts in Vera Wallet and want to add another one:
+          If you already have accounts in Voi Wallet and want to add another one:
         </p>
         
         <ol>
@@ -175,7 +175,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span class="dark:text-gray-300">
-                <strong class="dark:text-white">Vera Wallet is non-custodial.</strong> This means you have full control of your accounts, but also that Vera cannot help you recover your accounts if you lose your recovery phrase.
+                <strong class="dark:text-white">Voi Wallet is non-custodial.</strong> This means you have full control of your accounts, but also that Voi cannot help you recover your accounts if you lose your recovery phrase.
               </span>
             </li>
             <li class="flex items-start">
@@ -195,7 +195,7 @@
           <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700">
             <h3 class="text-lg font-medium text-gray-900 dark:text-white">Is there a limit to how many accounts I can create?</h3>
             <p class="mt-2 text-gray-600 dark:text-gray-300">
-              There is no specific limit to the number of accounts you can create in Vera Wallet. However, having many accounts may affect the app's performance on some devices.
+              There is no specific limit to the number of accounts you can create in Voi Wallet. However, having many accounts may affect the app's performance on some devices.
             </p>
           </div>
           

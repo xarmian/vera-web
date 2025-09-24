@@ -1,10 +1,10 @@
-# Vera Wallet Website
+# Voi Wallet Website
 
-This repository contains the source code for the Vera Wallet website, built with SvelteKit.
+This repository contains the source code for the Voi Wallet website, built with SvelteKit.
 
-## About Vera Wallet
+## About Voi Wallet
 
-Vera Wallet is a non-custodial cryptocurrency wallet for the Voi Network, forked from Pera Wallet for Algorand. As a non-custodial solution, users maintain complete control over their private keys and assets.
+Vera Wallet is now **Voi Wallet**, a non-custodial cryptocurrency wallet built from scratch with React Native for the Voi Network. While purpose-built for Voi, it maintains AVM (Algorand Virtual Machine) compatibility with support for Algorand. As a non-custodial solution, users maintain complete control over their private keys and assets.
 
 ## Features
 
@@ -30,8 +30,8 @@ Vera Wallet is a non-custodial cryptocurrency wallet for the Voi Network, forked
 
 1. Clone the repository
    ```
-   git clone https://github.com/yourusername/vera-web.git
-   cd vera-web
+   git clone https://github.com/yourusername/voi-wallet-web.git
+   cd voi-wallet-web
    ```
 
 2. Install dependencies
@@ -69,7 +69,7 @@ Vera Wallet is a non-custodial cryptocurrency wallet for the Voi Network, forked
 ## Folder Structure
 
 ```
-vera-web/
+voi-wallet-web/
 ├── src/                   # Source files
 │   ├── routes/            # SvelteKit routes & pages
 │   ├── lib/               # Shared libraries and utilities
@@ -93,6 +93,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-- Email: support@getvera.app
+- Email: support@voiwallet.io
 - Discord: [https://discord.gg/vnFbrJrHeW](https://discord.gg/vnFbrJrHeW)
 - Twitter: [@Voi_Net](https://twitter.com/Voi_Net)
