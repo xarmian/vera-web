@@ -3,8 +3,8 @@
 </script>
 
 <svelte:head>
-  <title>Asset Inbox - Vera Wallet Support</title>
-  <meta name="description" content="Learn about the upcoming Asset Inbox feature in Vera Wallet." />
+  <title>Asset Inbox - Voi Wallet Support</title>
+  <meta name="description" content="Learn about the upcoming Asset Inbox feature in Voi Wallet." />
 </svelte:head>
 
 <div class="bg-white py-16 sm:py-24">
@@ -33,7 +33,7 @@
         </div>
         
         <p class="text-xl text-gray-500">
-          We're currently developing the Asset Inbox feature for Vera Wallet. This feature will allow you to easily manage incoming assets and tokens.
+          We're currently developing the Asset Inbox feature for Voi Wallet. This feature will allow you to easily manage incoming assets and tokens.
         </p>
       </div>
       
