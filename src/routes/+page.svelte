@@ -112,14 +112,11 @@
       <div class="mt-12 max-w-lg mx-auto flex flex-col items-center">
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 w-full max-w-md mx-auto">
           <!-- Android Download -->
-          <a href="#" class="btn flex items-center justify-center bg-gray-400 text-white hover:text-white dark:text-white dark:hover:text-white py-3 px-4 rounded-lg shadow-md relative disabled cursor-not-allowed">
+          <a href="https://play.google.com/store/apps/details?id=com.voinetwork.wallet" target="_blank" rel="noopener noreferrer" class="btn flex items-center justify-center bg-green-600 hover:bg-green-700 dark:bg-green-700 dark:hover:bg-green-800 text-white py-3 px-4 rounded-lg shadow-md transition-colors duration-200">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
               <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
             </svg>
             Google Play
-            <span class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-secondary-600 text-white text-xs font-medium px-2 py-0.5 rounded-full">
-              Soon
-            </span>
           </a>
           
           <!-- iOS Download -->
