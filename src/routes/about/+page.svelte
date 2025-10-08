@@ -69,7 +69,7 @@
 				</p>
 				<div class="mt-4">
 					<a
-						href="https://github.com/xarmian/pera-android"
+						href="https://github.com/xarmian/voi-wallet"
 						target="_blank"
 						rel="noopener noreferrer"
 						class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white dark:text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"

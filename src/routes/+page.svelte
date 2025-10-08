@@ -112,7 +112,7 @@
       <div class="mt-12 max-w-lg mx-auto flex flex-col items-center">
         <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 w-full max-w-md mx-auto">
           <!-- Android Download -->
-          <a href="https://play.google.com/store/apps/details?id=com.voinetwork.wallet" target="_blank" rel="noopener noreferrer" class="btn flex items-center justify-center bg-green-600 hover:bg-green-700 dark:bg-green-700 dark:hover:bg-green-800 text-white py-3 px-4 rounded-lg shadow-md transition-colors duration-200">
+          <a href="https://play.google.com/store/apps/details?id=com.voinetwork.wallet" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-green-600 hover:bg-green-700 dark:bg-green-600 dark:hover:bg-green-700 text-white py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
               <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
             </svg>
@@ -120,14 +120,11 @@
           </a>
           
           <!-- iOS Download -->
-          <a href="#" class="btn flex items-center justify-center bg-gray-400 text-white hover:text-white dark:text-white dark:hover:text-white py-3 px-4 rounded-lg shadow-md relative disabled cursor-not-allowed">
+          <a href="https://apps.apple.com/us/app/voi-wallet/id6752960399" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-black hover:bg-gray-800 text-white dark:bg-black dark:hover:bg-gray-800 py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2 dark:focus:ring-offset-gray-900 dark:text-white">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" class="mr-2">
               <path d="M18.71,19.5C17.88,20.74 17,21.95 15.66,21.97C14.32,22 13.89,21.18 12.37,21.18C10.84,21.18 10.37,21.95 9.1,22C7.79,22.05 6.8,20.68 5.96,19.47C4.25,17 2.94,12.45 4.7,9.39C5.57,7.87 7.13,6.91 8.82,6.88C10.1,6.86 11.32,7.75 12.11,7.75C12.89,7.75 14.37,6.68 15.92,6.84C16.57,6.87 18.39,7.1 19.56,8.82C19.47,8.88 17.39,10.1 17.41,12.63C17.44,15.65 20.06,16.66 20.09,16.67C20.06,16.74 19.67,18.11 18.71,19.5M13,3.5C13.73,2.67 14.94,2.04 15.94,2C16.07,3.17 15.6,4.35 14.9,5.19C14.21,6.04 13.07,6.7 11.95,6.61C11.8,5.46 12.36,4.26 13,3.5Z" />
             </svg>
             App Store
-            <span class="absolute top-0 right-0 transform translate-x-1/2 -translate-y-1/2 bg-secondary-600 text-white text-xs font-medium px-2 py-0.5 rounded-full">
-              Soon
-            </span>
           </a>
         </div>
         
@@ -167,7 +164,7 @@
       </div>
       
       <div class="mt-10 flex justify-center space-x-6">
-        <a href="https://github.com/xarmian/pera-android" class="text-secondary-200 hover:text-white">
+        <a href="https://github.com/xarmian/voi-wallet" class="text-secondary-200 hover:text-white">
           <span class="sr-only">GitHub</span>
           <svg class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
