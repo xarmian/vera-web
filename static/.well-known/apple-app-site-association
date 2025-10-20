@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "Q66PP5NG93.com.voinetwork.wallet",
+        "paths": ["/wc", "/wc/*"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.voinetwork.wallet",
+      "sha256_cert_fingerprints": [
+        "1B:6F:9F:F0:B0:BF:80:3E:31:61:2C:33:3D:12:0C:35:E9:6A:A0:15:61:62:F8:85:F0:BA:B1:4F:A8:96:30:17"
+      ]
+    }
+  }
+]
