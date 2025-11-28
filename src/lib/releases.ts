@@ -8,6 +8,16 @@ export interface ReleaseInfo {
 
 export const releases: ReleaseInfo[] = [
   {
+    version: "0.1.7",
+    date: "2025-11-28", // Using ISO 8601 format
+    url: "https://api.voirewards.com/voiwallet/voiwallet-0.1.7-preview.apk",
+    isBeta: true,
+    notes: [
+      "Add integrated DEX Swap functionality on both Voi and Algorand networks",
+      "Overhaul UI/UX of the wallet and improve NFT Theme system",
+    ],
+  },
+  {
     version: "0.1.6",
     date: "2025-10-30", // Using ISO 8601 format
     url: "https://api.voirewards.com/voiwallet/voiwallet-0.1.6-preview.apk",
