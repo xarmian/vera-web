@@ -1,0 +1,13 @@
+{
+    "validUpdates": [
+      {
+        "id": "9228508d-f24f-4986-bb9e-36d43a96cf9a",
+        "runtimeVersion": "0.1.9",
+        "createdAt": "2025-12-11T19:00:00Z",
+        "description": "Testing OTA update validation",
+        "channel": "preview"
+      },
+    ],
+    "revokedUpdates": [
+    ]
+  }
