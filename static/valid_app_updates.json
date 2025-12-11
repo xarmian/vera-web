@@ -1,7 +1,7 @@
 {
     "validUpdates": [
       {
-        "id": "a921a9e7-fc30-4f32-892f-3092226944f1",
+        "id": "62163a6a-32af-421f-902d-80e13c7c564c",
         "runtimeVersion": "0.1.9",
         "createdAt": "2025-12-11T19:00:00Z",
         "description": "Testing OTA update validation",
