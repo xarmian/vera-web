@@ -1,7 +1,11 @@
 {
     "validUpdates": [
       {
-        "id": "62163a6a-32af-421f-902d-80e13c7c564c",
+        "ids": [
+          "dae7d90d-9076-4a8a-a893-a1003658543f",
+          "dc77ce97-e824-4fde-9b33-807b4872ebf1",
+          "23ddf696-2fda-4897-86e9-a3d96a032833"
+        ],
         "runtimeVersion": "0.1.9",
         "createdAt": "2025-12-11T19:00:00Z",
         "description": "Testing OTA update validation",
