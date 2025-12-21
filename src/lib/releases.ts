@@ -8,6 +8,17 @@ export interface ReleaseInfo {
 
 export const releases: ReleaseInfo[] = [
   {
+    version: "0.1.10",
+    date: "2025-12-20", // Using ISO 8601 format
+    url: "https://api.voirewards.com/voiwallet/voiwallet-0.1.10-preview.apk",
+    isBeta: true,
+    notes: [
+      "Airgapped Signing - Configure a secondary (offline) device to sign transactions",
+      "ARC-90 Advanced QR Code Support",
+      "Various bug fixes and performance improvements"
+    ],
+  },
+  {
     version: "0.1.9",
     date: "2025-12-11", // Using ISO 8601 format
     url: "https://api.voirewards.com/voiwallet/voiwallet-0.1.9-preview.apk",
