@@ -10,6 +10,17 @@
         "createdAt": "2025-12-11T19:00:00Z",
         "description": "Testing OTA update validation",
         "channel": "preview"
+      },
+      {
+        "ids": [
+          "01a18ad6-3aba-78c2-8d48-42e898f46840",
+          "01a18ad6-3aba-7d2f-8f87-119f090baa35",
+          "795b6eea-2c38-4c9f-86b7-c1d8cb8ae82c"
+        ],
+        "runtimeVersion": "0.1.10",
+        "createdAt": "2026-10-30T03:24:17Z",
+        "description": "TASK-439: going offline never sets nonParticipation (0.1.10 keyreg hotfix)",
+        "channel": "production"
       }
     ],
     "revokedUpdates": [
